@@ -1,21 +1,23 @@
-# Prueba Técnica Módulo 1: Python
+## Prueba Técnica Módulo 1: Python
 
-Este repositorio contiene el ejercicio de Ana Duag (Ana Pilar Dueñas Agudo) correspondiente a la Prueba Técnica del Módulo 1 en Python.
+Este repositorio contiene la resolución de la prueba técnica correspondiente al módulo 1 del **Bootcamp de Análisis de Datos de Adalab (año 2025)**, realizada por **Ana Pilar Dueñas Agudo**.
+
+---
 
 ## Contenido
 
 Clase `TiendaOnline` para la gestión de:
 
-- Inventario de productos
-- Registro de clientes
-- Compras y ventas
+- Inventario de productos.
+- Registro de clientes.
+- Compras y ventas.
 
 ### Métodos implementados
 
-- Agregar, buscar, actualizar y eliminar productos
-- Calcular valor del inventario y ventas totales
-- Registrar clientes y ver su historial de compras
-- Realizar compras y procesar pagos
+- Agregar, buscar, actualizar y eliminar productos.
+- Calcular valor del inventario y ventas totales.
+- Registrar clientes y ver su historial de compras.
+- Realizar compras y procesar pagos.
 
 ### Características adicionales
 
@@ -23,6 +25,8 @@ Clase `TiendaOnline` para la gestión de:
 - Uso de bucles `for` y `while`, condicionales `if/elif/else` y `list comprehension` para simplificar el código
 - Comentarios en líneas complejas o donde se incluyó lógica adicional
 - Uso de `print`/`return` según requerimientos del examen o la lógica del método
+
+---
 
 ## Ejecución
 
@@ -47,5 +51,8 @@ tienda.procesar_pago(total_compra)
 tienda.registrar_compra(nombre_cliente, carrito)
 tienda.ver_compras_cliente(nombre_cliente)
 tienda.calcular_ventas_totales()
+
+
+---
 
 Nota: Durante la ejecución, algunos métodos solicitan inputs del usuario.
